@@ -1,0 +1,8 @@
+1:请下载go语言官方包
+2:设置环境变量,.bash_profile:
+	export GOPATH=你存放的fourscustom 位置 
+	如果你是mac go语言的主程序已经自动进入 你的path里了。linux没试过
+3:安装包：
+	go get github.com/astaxie/beego  web框架包
+	go get github.com/beego/bee  web工具包
+	go get github.com/go-sql-driver/mysql  mysql包
